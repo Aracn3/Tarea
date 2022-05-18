@@ -1,4 +1,4 @@
-Console.Clear();
+
 
 Console.WriteLine("Por favor ingrese su nombre");
 
@@ -7,14 +7,22 @@ Console.WriteLine("Hola " + nombre);
 Console.WriteLine("Desea continuar? S/N");
 var respuesta = Console.ReadLine();
 
+while (respuesta.ToUpper() == "S")
+{
+    Console.Clear();
 
-if (respuesta.ToUpper() == "S")
-{
-    Console.WriteLine("Usted Ingreso que SI");
+    Console.WriteLine("Por favor ingrese su nombre");
+    nombre = Console.ReadLine();
+    Console.WriteLine("Hola " + nombre);
+    Console.WriteLine("Desea continuar? S/N");
+    respuesta = Console.ReadLine();
+
+  
 }
-else if (respuesta.ToUpper() == "N")
+
+if (respuesta.ToUpper() == "N")
 {
-    Console.WriteLine("Programa finalizado correctamente");     
+    Console.WriteLine("Usted Ingreso que NO");
 }
 else
 {
