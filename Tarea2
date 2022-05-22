@@ -1,0 +1,47 @@
+Console.WriteLine("Hola humano...");
+Console.WriteLine("Introduzca su nombre:");
+string nombreHumano = Console.ReadLine();
+Console.WriteLine($"Hola {nombreHumano}");
+Console.WriteLine("...");
+
+int numeroSecreto = new
+Random(DateTime.Now.Millisecond).Next(1, 21);
+int numero = 0;
+
+
+Console.WriteLine("¡La computadora ha creado un numero al azar del 1 al 21!");
+Console.WriteLine("Intente adivinarlo:");
+numero = int.Parse(Console.ReadLine());
+var contador = 0;
+while (numero > numeroSecreto || numero < numeroSecreto)
+{
+
+    
+
+
+    if (numero > numeroSecreto)
+    {
+        Console.WriteLine($"...lastima {nombreHumano}, el numero que usted eligio" +
+            $" es mayor");
+        Console.WriteLine("Intente de nuevo:");
+        contador++;
+
+        numero = int.Parse(Console.ReadLine());
+
+    }
+    else
+    {
+        Console.WriteLine($"...lastima {nombreHumano}, el numero que usted eligio" +
+            $" es menor");
+        Console.WriteLine("Intente de nuevo:");
+        contador++;
+        numero = int.Parse(Console.ReadLine());
+    }
+
+}
+if (numero == numeroSecreto)
+{
+    Console.WriteLine("Felicidades, has adivinado el numero" +
+        " secreto que era: " + numeroSecreto);
+    Console.WriteLine($"Lo has logrado en {contador} intentos");
+}
