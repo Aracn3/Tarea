@@ -2,10 +2,10 @@ Console.WriteLine("Usuario: introduzca el tamaño del vector a crear");
 int n = int.Parse(Console.ReadLine());
 int[] vector = new int[n];
 
-foreach (var i in vector)
+for (int i = 0; i < vector.Length; i++)
 {
     vector[i] = new Random().Next(100);
-    Console.WriteLine(vector[i]);
+
 }
 Console.WriteLine("Estos son los numeros de su vector:");
 
@@ -28,6 +28,8 @@ foreach (var item in vector)
 {
     Console.WriteLine(item);
 }
+
+
 
 
 
