@@ -1,0 +1,15 @@
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/bin/Debug/net6.0/TareaBilletera
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/bin/Debug/net6.0/TareaBilletera.deps.json
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/bin/Debug/net6.0/TareaBilletera.runtimeconfig.json
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/bin/Debug/net6.0/TareaBilletera.dll
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/bin/Debug/net6.0/TareaBilletera.pdb
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.csproj.AssemblyReference.cache
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.AssemblyInfoInputs.cache
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.AssemblyInfo.cs
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.csproj.CoreCompileInputs.cache
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.dll
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/refint/TareaBilletera.dll
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.pdb
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/TareaBilletera.genruntimeconfig.cache
+/Users/aracn3/Projects/TareaBilletera/TareaBilletera/obj/Debug/net6.0/ref/TareaBilletera.dll
